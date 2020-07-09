@@ -1,9 +1,10 @@
 <?php
 
-	//laad stijlbladen
+	//laad stijlbladen en scripts
 	function laadStijlblad(){
 		wp_enqueue_style('stijl', get_stylesheet_uri());
 		wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bootstrap.css');
+		wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/bootstrap.min.js', array('jquery'), 1.1, true);
 	}
 
 	add_action('init', 'laadStijlblad');

@@ -23,3 +23,10 @@ p{
 nav{
 	font-family: Helvetica, sans-serif;
 }
+
+.jumbotron{
+	background-size: 100%;
+	background-position: center;
+	object-fit: cover;
+	color:#fff;
+}
