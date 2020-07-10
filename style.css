@@ -29,4 +29,22 @@ nav{
 	background-position: center;
 	object-fit: cover;
 	color:#fff; 
+	text-shadow: 0 0 5px #000;
+}
+
+.jumbotron a{
+	color:lightblue;
+}
+
+.jumbotron a:hover{
+	color:lightblue;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1125px) {
+
+	.jumbotron{
+		background-size: 222%;
+	}
+
 }
