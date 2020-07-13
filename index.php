@@ -15,7 +15,7 @@
 		</main>
 
 		<aside class="col-md-4 bg-light">
-			<h3>Terzijde</h3>
+			<?php dynamic_sidebar('aside'); ?>
 		</aside>
 	</div>
 </div>

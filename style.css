@@ -41,6 +41,24 @@ nav{
 	text-decoration: none;
 }
 
+/* widget in footer*/
+.widget-footer{
+	font-size:.8em;
+}
+
+.widget-footer a{
+	color:white;
+}
+
+.widget-footer a:hover{
+	color:lightgrey;
+	text-decoration: none;
+}
+
+.widget-footer-titel{
+	font-size:1.2rem;
+}
+
 @media screen and (max-width: 1125px) {
 
 	.jumbotron{
