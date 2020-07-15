@@ -16,6 +16,17 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+*{
+	font-family: 'Jura', sans-serif;
+}
+
+body{
+	font-family:sans-serif;
+	min-height:100vh;
+	display:grid;
+	grid-template-rows: auto 1fr auto;
+}
+
 p{
 	font-family: Helvetica, sans-serif;
 }
@@ -41,6 +52,11 @@ nav{
 	text-decoration: none;
 }
 
+/* eigen Google-font bij koppen */
+.jumbotron, h1, h2, h3, h4, .navbar-brand{
+	font-family: 'Jura', sans-serif;
+}
+
 /* widget in footer*/
 .widget-footer{
 	font-size:.8em;
@@ -59,6 +75,21 @@ nav{
 	font-size:1.2rem;
 }
 
+/* widget in aside */
+.widget-aside{
+	padding: 2em 1em 2em 1em;
+	border-bottom: 1px solid grey;
+}
+
+.widget-titel h3{
+	font-size: .7;
+}
+
+.screen-reader-text{
+	display: none;
+}
+
+/* mobile */
 @media screen and (max-width: 1125px) {
 
 	.jumbotron{

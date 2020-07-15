@@ -29,6 +29,9 @@
 			            )	
 		        	);
 		        ?>
+		        <a href="<?php echo home_url(); ?>">
+		        	<img src="<?php echo get_template_directory_uri() . '/img/djlauwy.png' ?>" alt="DJ Lauwy Logo" height="50px">
+		        </a>
 		    </div>
 		</nav>
 		<div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri() . '/img/banner.jpg'; ?>);">
